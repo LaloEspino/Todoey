@@ -34,7 +34,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Todoey" id="vU0-UY-NVf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5wy-C7-hR3">
-                            <color key="tintColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                             <connections>
                                 <action selector="addButtonPressed:" destination="6es-Tj-z8R" id="v35-ks-LJd"/>
                             </connections>
@@ -53,10 +52,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ch4-oh-UJI">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" name="systemBlueColor" catalog="System" colorSpace="catalog"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
