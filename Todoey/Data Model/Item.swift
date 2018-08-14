@@ -8,16 +8,7 @@
 
 import Foundation
 
-class Item {
+class Item: Encodable {
     var title : String = ""
     var done : Bool = false
-    
-//    init() {
-
-//    }
-//     convenience init(title : String, done : Bool) {
-//        self.init()
-//        self.title = title
-//        self.done = done
-//    }
 }
